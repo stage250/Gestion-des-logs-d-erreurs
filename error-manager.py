@@ -135,7 +135,7 @@ class ErrorLogAnalyzer:
 
 def main():
     # Initialize the analyzer with markets log file
-    log_file = Path('/home/hamilton/Documents/gestion-errorLog_des_markets/etapes-print.com-error.log')
+    log_file = Path('')
     analyzer = ErrorLogAnalyzer(log_file)
     
     # Analyze the log file
